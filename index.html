@@ -21,6 +21,9 @@
     .launch-media video { display:block; width:100%; border-radius:12px; background:#0d1117; }
     .launch-media .media-links { display:flex; flex-wrap:wrap; gap:12px; margin-top:14px; }
     .launch-media .media-links a { color:var(--accent); }
+    .cover-strip { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin:16px 0 6px; }
+    .cover-strip a { display:block; }
+    .cover-strip img { display:block; width:100%; aspect-ratio:16/9; object-fit:cover; border:1px solid var(--line); border-radius:12px; }
     @media (prefers-reduced-motion: reduce) { .launch-media video { scroll-margin-top:20px; } }
     .card .links { display:flex; flex-wrap:wrap; gap:12px; margin-top:auto; } .note { padding:20px; border-left:3px solid var(--accent); background:#13251f; color:#c6d8d0; }
     footer { border-top:1px solid var(--line); padding:28px 0 52px; color:var(--muted); font-size:.9rem; } code { color:#c6d5f8; }
@@ -43,6 +46,14 @@
         Trình duyệt không phát được MP4. Mở <a href="https://github.com/DevAngular333/design-os-code/releases/download/v0.5.1-devangular333/code2flow-review-pack-launch-1080p.mp4">file video</a> hoặc <a href="review-pack-demo.html">demo tương tác</a>.
       </video>
       <div class="media-links"><a href="review-pack-demo.html">Try demo</a><a href="https://github.com/DevAngular333/design-os-code/releases/download/v0.5.1-devangular333/code2flow-review-pack-facebook-vertical.mp4">Download vertical cut</a><a href="assets/code2flow-review-pack-preview.gif">Open GIF preview</a><a href="https://github.com/DevAngular333/design-os-code/releases/tag/v0.5.1-devangular333">Release + subtitles</a></div>
+    </section>
+    <section aria-labelledby="visual-system-title">
+      <h2 id="visual-system-title">One visual system, three product signals</h2>
+      <div class="cover-strip">
+        <a href="#review-pack" aria-label="Code2Flow Review Pack cover"><img src="assets/code2flow-review-pack-cover.png" alt="Code2Flow Review Pack graph delta cover"></a>
+        <a href="#agent-teacher" aria-label="Agent Teacher cover"><img src="assets/agent-teacher-cover.png" alt="Agent Teacher rehearsal and replay cover"></a>
+        <a href="#inkos-printfilm-lab" aria-label="InkOS bridge cover"><img src="assets/inkos-bridge-cover.png" alt="InkOS bridge document conversion cover"></a>
+      </div>
     </section>
     <section>
       <h2>Sản phẩm và demo có thể thử</h2>
