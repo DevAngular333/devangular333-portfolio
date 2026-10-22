@@ -14,9 +14,17 @@ browser's local storage and exports JSON; it does not call a backend.
 The Agent Teacher card points to the license-correction patch release
 [`v0.1.1-devangular333`](https://github.com/DevAngular333/design-os-pedagogy/releases/tag/v0.1.1-devangular333); the earlier `v0.1.0-devangular333` tag remains unchanged.
 
-The `assets/` directory contains screenshots captured from released local
-flows: the Review Pack public demo, Agent Teacher UI, Code2Flow viewer export,
-and InkOS bridge smoke evidence card. They are evidence images, not product
-mockups.
+The `assets/` directory contains screenshots and branded media from released
+local flows: the Review Pack public demo, Agent Teacher UI, Code2Flow viewer
+export, InkOS bridge smoke evidence card, graph-delta covers, a poster and a
+10-second GIF preview. The full MP4 cuts and Vietnamese subtitles are attached
+to the [`v0.5.1-devangular333` release](https://github.com/DevAngular333/design-os-code/releases/tag/v0.5.1-devangular333).
+They are evidence images, not product mockups.
+
+The rerunnable capture and render source is kept in
+`plans/devangular333-mission/media-pipeline/render-media.mjs` in the shared
+workbench. It opens the local synthetic CRM report/app with Playwright, saves
+raw captures outside public repositories, and encodes the final media with
+FFmpeg.
 
 Live page: <https://devangular333.github.io/devangular333-portfolio/>
