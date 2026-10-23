@@ -18,7 +18,7 @@ The `assets/` directory contains screenshots and branded media from released
 local flows: the Review Pack public demo, Agent Teacher UI, Code2Flow viewer
 export, InkOS bridge smoke evidence card, graph-delta covers, a poster and a
 10-second GIF preview. The full MP4 cuts and Vietnamese subtitles are attached
-to the [`v0.5.2-devangular333` release](https://github.com/NamAIEngineer/design-os-code/releases/tag/v0.5.2-devangular333); the previous `v0.5.1-devangular333` release remains available as a fallback.
+to the [`v0.5.3-devangular333` release](https://github.com/NamAIEngineer/design-os-code/releases/tag/v0.5.3-devangular333); the previous `v0.5.1-devangular333` release remains available as a fallback.
 They are evidence images, not product mockups. The Review Pack copy names the synthetic-data boundary and deterministic focus matching; runtime behavior still requires separate human checking.
 
 The public rerunnable capture/render guide is in the Code2Flow repository's
